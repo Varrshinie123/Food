@@ -1,0 +1,50 @@
+﻿/* Body Styles */
+body {
+    background-image: url('https://wallpapercave.com/dwp1x/wp4696891.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 900; /* Corrected typo */
+    color: #683aa4;
+}
+
+.navbar-toggler-icon {
+    background-color: #683aa4;
+}
+
+.navbar-nav .nav-link {
+    color: #a9a9a9;
+    font-size: 16px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+    .navbar-nav .nav-link.active {
+        color: #683aa4;
+    }
+
+/* Content Styles */
+.content {
+    /* Add margin-top to push content below the fixed navbar */
+    margin-top: 70px; /* Adjust the value as needed */
+}

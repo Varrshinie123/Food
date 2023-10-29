@@ -1,0 +1,73 @@
+﻿/* BlogPage.css */
+
+.blog-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-box {
+    width: calc(33.33% - 20px); /* Three columns with spacing */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 5px; /* Rounded corners */
+}
+
+    .blog-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .blog-box h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333; /* Text color */
+    }
+
+.blog-details {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .blog-details span {
+        color: #777; /* Additional styling for details */
+    }
+
+.blog-box p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.blog-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+    .blog-actions button {
+        background-color: #683aa4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+    }
+
+        .blog-actions button:hover {
+            background-color: #512a88; /* Darker color on hover */
+        }
+
+/* Add additional styling as needed */

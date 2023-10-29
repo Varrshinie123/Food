@@ -1,0 +1,52 @@
+﻿.recipe-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-recipe-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.create-recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.existing-recipes {
+    margin-top: 20px;
+}
+
+.recipe {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
